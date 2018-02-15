@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<banks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.com/bank"
+          xsi:noNamespaceSchemaLocation="bank.xsd">
+    <bank type="cumulative">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Valentin</depositor>
+        <accountId>256472</accountId>
+        <amountOnDeposit>37500</amountOnDeposit>
+        <profitability>15</profitability>
+    </bank>
+    <bank type="savings">
+        <name>MTB</name>
+        <country>Belarus</country>
+        <depositor>Maria</depositor>
+        <accountId>124535</accountId>
+        <amountOnDeposit>47500</amountOnDeposit>
+        <profitability>13</profitability>
+    </bank>
+    <bank type="calculated">
+        <name>BELWEB</name>
+        <country>Belarus</country>
+        <depositor>Anastasia</depositor>
+        <accountId>542631</accountId>
+        <amountOnDeposit>800000</amountOnDeposit>
+        <profitability>12</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>Prior</name>
+        <country>Belarus</country>
+        <depositor>Nikolay</depositor>
+        <accountId>786541</accountId>
+        <amountOnDeposit>375000</amountOnDeposit>
+        <profitability>14</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>VTB</name>
+        <country>Russia</country>
+        <depositor>Mary</depositor>
+        <accountId>3654782</accountId>
+        <amountOnDeposit>3500</amountOnDeposit>
+        <profitability>11</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Petr</depositor>
+        <accountId>5874632</accountId>
+        <amountOnDeposit>3000</amountOnDeposit>
+        <profitability>15</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>Belarus</name>
+        <country>Belarus</country>
+        <depositor>Grigoriy</depositor>
+        <accountId>365218</accountId>
+        <amountOnDeposit>45000</amountOnDeposit>
+        <profitability>13</profitability>
+    </bank>
+    <bank type="calculated">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Pavel</depositor>
+        <accountId>965412</accountId>
+        <amountOnDeposit>5500</amountOnDeposit>
+        <profitability>14</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Alex</depositor>
+        <accountId>472635</accountId>
+        <amountOnDeposit>5000</amountOnDeposit>
+        <profitability>17</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Vlada</depositor>
+        <accountId>654782</accountId>
+        <amountOnDeposit>69800</amountOnDeposit>
+        <profitability>10</profitability>
+    </bank>
+    <bank type="express">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Yulia</depositor>
+        <accountId>985642</accountId>
+        <amountOnDeposit>64700</amountOnDeposit>
+        <profitability>15</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Stanislay</depositor>
+        <accountId>146872</accountId>
+        <amountOnDeposit>378542</amountOnDeposit>
+        <profitability>12</profitability>
+    </bank>
+    <bank type="cumulative">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Olga</depositor>
+        <accountId>6583147</accountId>
+        <amountOnDeposit>65400</amountOnDeposit>
+        <profitability>14</profitability>
+    </bank>
+    <bank type="express">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Nadzeya</depositor>
+        <accountId>256472</accountId>
+        <amountOnDeposit>89000</amountOnDeposit>
+        <profitability>15</profitability>
+    </bank>
+    <bank type="savings">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Inna</depositor>
+        <accountId>258472</accountId>
+        <amountOnDeposit>37500</amountOnDeposit>
+        <profitability>15</profitability>
+    </bank>
+    <bank type="calculated">
+        <name>VTB</name>
+        <country>Belarus</country>
+        <depositor>Irina</depositor>
+        <accountId>356472</accountId>
+        <amountOnDeposit>47500</amountOnDeposit>
+        <profitability>15</profitability>
+    </bank>
+</banks>

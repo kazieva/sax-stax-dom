@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.com/bank"
+           xmlns:tns="http://www.example.com/bank"
+           elementFormDefault="qualified">
+    <xs:element name="banks">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="bank"
+                            type="tns:bank"
+                            minOccurs="1"
+                            maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="bank">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="country">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z]{0,20}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="depositor" type="xs:string" />
+            <xs:element name="accountId" type="xs:positiveInteger" />
+            <xs:element name="amountOnDeposit" type="xs:positiveInteger" />
+            <xs:element name="profitability" type="xs:positiveInteger" />
+        </xs:sequence>
+        <xs:attribute name="type" use="optional" default="express">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="express"/>
+                    <xs:enumeration value="calculated"/>
+                    <xs:enumeration value="cumulative"/>
+                    <xs:enumeration value="savings"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+</xs:schema>
